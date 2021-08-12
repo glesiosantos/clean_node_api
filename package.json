@@ -4,8 +4,8 @@
   "description": "Clean Node API",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "author": "Glêsio Santos",
   "license": "ISC",

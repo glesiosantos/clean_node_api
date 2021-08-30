@@ -1,0 +1,8 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 18,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  }
+}

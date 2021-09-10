@@ -11,14 +11,15 @@ describe('SignUp Routes', () => {
     const accountCollection = MongoDBHelper.getCollection('accounts')
     await accountCollection.deleteMany({})
   })
+
   it('should return an account on success', async () => {
     await request(app)
       .post('/api/signup')
       .send({
         name: 'Glêsio Santos',
         email: 'glesioss@gmail.com',
-        password: '123456',
-        passwordConfirmation: '123456'
+        password: '123',
+        passwordConfirmation: '123'
       })
       .expect(200)
   })
